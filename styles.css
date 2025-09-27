@@ -1,0 +1,39 @@
+.mini-popup {
+  position: absolute;
+  z-index: 2147483647;
+  max-width: 350px;
+  background: #fff;
+  color: #111;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  padding: 12px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.mini-popup-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.mini-popup-extract {
+  max-height: 120px;
+  overflow-y: auto;
+  margin-bottom: 6px;
+}
+
+.mini-popup-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mini-popup-close {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
